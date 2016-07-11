@@ -1,0 +1,104 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Lora', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$base-line-height: 2;
+$code-font-family: "DejaVu Sans Mono", "Inconsolata", "Monaco", "Lucida Console", monospace;
+
+$text-color:       rgb(46,38,38);
+$background-color: rgb(227,240,218);
+$brand-color:      rgb(25,71,25);
+$brand-color2:     rgb(135,186,101);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    720px;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+/* http://www.colourlovers.com/palette/737421/book_of_kells */
+
+body {
+  max-width: $content-width;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 80px;
+  padding-top: 24px;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  background-color: $background-color;
+  color: $text-color;
+  text-shadow: 0 1px 1px rgb(255,255,255);
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: $brand-color;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: $brand-color2;
+}
+
+p + p {
+  text-indent: 1em;
+  margin-top: -1em;
+}
+
+blockquote {
+  text-indent: -0.3em;
+}
+
+pre, code {
+  font-family: $code-font-family;
+  font-size: 0.8rem;
+  line-height: 140%;
+}
+
+pre {
+  margin-left: 3em;
+}
+
+body > header a {
+  color: $brand-color2;
+  font-size: 2.6em;
+  margin-bottom: 1em;
+}
+
+.date {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: -2em;
+}
+
+ul.posts {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul.posts li a {
+  font-size: 1.2em;
+}
+
+/*
+.first:first-letter {
+  font-size: 2.6rem;
+  margin-right: 2px;
+}
+*/
