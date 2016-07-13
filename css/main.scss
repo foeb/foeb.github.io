@@ -62,7 +62,10 @@ p + p {
 }
 
 blockquote {
-  text-indent: -0.3em;
+  font-style: italic;
+  border-left: 3px solid $brand-color2;
+  margin-left: -11px;
+  padding-left: 3em;
 }
 
 pre, code {

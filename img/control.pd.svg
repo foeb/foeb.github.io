@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width='389' height='118' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+	<polyline points='136.0 12.0 169.0 12.0 173.0 16.0 173.0 26.0 136.0 26.0 136.0 12.0' id='.x8e9650.ta33fe0R atom' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='136.0' y='25.0' width='7.0' height='1.0' id='.x8e9650.ta33fe0o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='136.0' y='12.0' width='7.0' height='1.0' id='.x8e9650.ta33fe0i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='138.0' y='24.0' id='.x8e9650.ta33fe0 atom text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>1</text>
+	<polyline points='136.0 31.0 242.0 31.0 238.0 35.0 238.0 44.0 242.0 48.0 136.0 48.0 136.0 31.0' id='.x8e9650.ta34080R msg' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='136.0' y='47.0' width='7.0' height='1.0' id='.x8e9650.ta34080o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='136.0' y='31.0' width='7.0' height='1.0' id='.x8e9650.ta34080i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='138.0' y='43.0' id='.x8e9650.ta34080 msg text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>control amp $1</text>
+	<polyline points='248.0 11.0 281.0 11.0 285.0 15.0 285.0 25.0 248.0 25.0 248.0 11.0' id='.x8e9650.ta34120R atom' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='248.0' y='24.0' width='7.0' height='1.0' id='.x8e9650.ta34120o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='248.0' y='11.0' width='7.0' height='1.0' id='.x8e9650.ta34120i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='250.0' y='23.0' id='.x8e9650.ta34120 atom text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>440</text>
+	<polyline points='248.0 30.0 361.0 30.0 357.0 34.0 357.0 43.0 361.0 47.0 248.0 47.0 248.0 30.0' id='.x8e9650.ta341c0R msg' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='248.0' y='46.0' width='7.0' height='1.0' id='.x8e9650.ta341c0o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='248.0' y='30.0' width='7.0' height='1.0' id='.x8e9650.ta341c0i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='250.0' y='42.0' id='.x8e9650.ta341c0 msg text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>control freq $1</text>
+	<polyline points='136.0 83.0 168.0 83.0 168.0 100.0 136.0 100.0 136.0 83.0' id='.x8e9650.t8f5b40R obj' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='136.0' y='83.0' width='7.0' height='1.0' id='.x8e9650.t8f5b40i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='161.0' y='83.0' width='7.0' height='1.0' id='.x8e9650.t8f5b40i1 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='138.0' y='95.0' id='.x8e9650.t8f5b40 obj text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>dac~</text>
+	<polyline points='136.0 61.0 280.0 61.0 280.0 78.0 136.0 78.0 136.0 61.0' id='.x8e9650.t8f5c80R obj' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='136.0' y='77.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='181.0' y='77.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80o1 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='227.0' y='77.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80o2 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='273.0' y='77.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80o3 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='136.0' y='61.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='273.0' y='61.0' width='7.0' height='1.0' id='.x8e9650.t8f5c80i1 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='138.0' y='73.0' id='.x8e9650.t8f5c80 obj text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>csound6~ control.csd</text>
+	<polyline points='37.0 32.0 129.0 32.0 125.0 36.0 125.0 45.0 129.0 49.0 37.0 49.0 37.0 32.0' id='.x8e9650.t8f5d20R msg' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='37.0' y='48.0' width='7.0' height='1.0' id='.x8e9650.t8f5d20o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<rect x='37.0' y='32.0' width='7.0' height='1.0' id='.x8e9650.t8f5d20i0 inlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='39.0' y='44.0' id='.x8e9650.t8f5d20 msg text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>set amp freq</text>
+	<polyline points='37.0 11.0 97.0 11.0 97.0 28.0 37.0 28.0 37.0 11.0' id='.x8e9650.t8f5dc0R obj' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<rect x='37.0' y='27.0' width='7.0' height='1.0' id='.x8e9650.t8f5dc0o0 outlet' style='stroke: black; stroke-width: 1.0; fill: none;'/>
+	<text x='39.0' y='23.0' id='.x8e9650.t8f5dc0 obj text' style='font-weight: bold; stroke-width: 0; font-family: DejaVu Sans Mono; font-size: 11px; fill: black;'>loadbang</text>
+	<polyline points='139.0 26.0 139.0 31.0' id='la4ef10 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='139.0 48.0 139.0 61.0' id='la4cfc0 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='251.0 25.0 251.0 30.0' id='l9d5870 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='251.0 47.0 139.0 61.0' id='la4cf50 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='139.0 78.0 139.0 83.0' id='la34ac0 cord' style='stroke: black; stroke-width: 2.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='184.0 78.0 164.0 83.0' id='la34810 cord' style='stroke: black; stroke-width: 2.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='40.0 49.0 139.0 61.0' id='la34830 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+	<polyline points='40.0 28.0 40.0 32.0' id='la33e20 cord' style='stroke: black; stroke-width: 1.0; stroke-linejoin: round; fill: none;'/>
+</svg>

@@ -1,0 +1,17 @@
+#N canvas 1043 464 389 118 10;
+#X floatatom 136 12 5 0 1 0 - - -, f 5;
+#X msg 136 31 control amp \$1;
+#X floatatom 248 11 5 0 0 0 - - -, f 5;
+#X msg 248 30 control freq \$1;
+#X obj 136 83 dac~;
+#X obj 136 61 csound6~ control.csd;
+#X msg 37 32 set amp freq;
+#X obj 37 11 loadbang;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 5 0 4 0;
+#X connect 5 1 4 1;
+#X connect 6 0 5 0;
+#X connect 7 0 6 0;

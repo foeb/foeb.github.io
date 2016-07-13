@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Programming DSP filters in Lua"
-date:   2016-07-11 02:25:31 -0700
-categories: dsp filters lua audio
----
-This is my post! Hurray for posts!
-
