@@ -21,6 +21,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    720px;
+$content-padding:  20px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -35,6 +36,8 @@ body {
   max-width: $content-width;
   margin-left: auto;
   margin-right: auto;
+  padding-left: $content-padding;
+  padding-right: $content-padding;
   padding-bottom: 5em;
   padding-top: 3em;
   font-family: $base-font-family;
