@@ -35,8 +35,8 @@ body {
   max-width: $content-width;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 80px;
-  padding-top: 24px;
+  padding-bottom: 5em;
+  padding-top: 3em;
   font-family: $base-font-family;
   line-height: $base-line-height;
   background-color: $background-color;
@@ -49,8 +49,13 @@ h1, h2, h3, h4, h5, h6, a {
   font-size: 13px;
 }
 
+a {
+  color: $brand-color;
+}
+
 a:hover {
   text-decoration: none;
+  color: $brand-color2;
 }
 
 a:active {
@@ -96,6 +101,29 @@ ul.posts {
 }
 
 ul.posts li a {
+}
+
+.rss-subscribe {
+  color: $grey-color;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  color: $grey-color;
+}
+
+ul.contact-list {
+  padding-left: 0;
+}
+
+.contact-list li {
+  list-style-type: none;
+  display: inline;
+}
+
+.contact-list li + li {
+  padding-left: 1em;
 }
 
 /*
