@@ -22,4 +22,3 @@ endin
 i1 0 36000
 </CsScore>
 </CsoundSynthesizer>
-
