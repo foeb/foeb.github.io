@@ -23,6 +23,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    720px;
 $content-padding:  20px;
 
+$break-small:      600px;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -38,18 +40,30 @@ body {
   margin-right: auto;
   padding-left: $content-padding;
   padding-right: $content-padding;
-  padding-bottom: 5em;
-  padding-top: 3em;
+
   font-family: $base-font-family;
   line-height: $base-line-height;
   background-color: $background-color;
   color: $text-color;
+
   font-size: 13px;
+  padding-bottom: 5em;
+  padding-top: 3em;
+
+  @media only screen and (max-width: $break-small) {
+    font-size: 11px;
+    padding-bottom: $content-padding;
+    padding-top: $content-padding;
+  }
 }
+
 
 h1, h2, h3, h4, h5, h6, a {
   color: $brand-color;
   font-size: 13px;
+  @media only screen and (max-width: $break-small) {
+    font-size: 11px;
+  }
 }
 
 a {
