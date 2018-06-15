@@ -98,7 +98,11 @@ pre, code {
 }
 
 pre {
-  padding-left: 3em;
+  padding-left: 2em;
+  @media only screen and (max-width: $break-small) {
+    padding-left: 1em;
+    font-size: 10px;
+  }
 }
 
 body > header a {
