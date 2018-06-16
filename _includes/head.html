@@ -14,5 +14,31 @@
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+<script src='https://code.jquery.com/jquery-3.3.1.js'></script>
+
+<script>
+window.onload = function() {
+var random_colors = [];
+var random_colors_length = 10;
+var spread_const = 0.3 * Math.PI;
+var spread_theta = Math.random() * spread_const;
+var spread_phi = Math.random() * spread_const;
+
+var theta = Math.random() * Math.PI * 2;
+var phi = Math.random() * Math.PI * 2;
+for (var i = 0; i < random_colors_length; i++) {
+  var x = Math.sin(theta) * Math.cos(phi);
+  var y = Math.sin(theta) * Math.sin(phi);
+  var z = Math.cos(theta);
+  var r = Math.floor(x * 128 + 128);
+  var g = Math.floor(y * 128 + 128);
+  var b = Math.floor(z * 128 + 128);
+  $(".random-color-" + i).css('color', "rgb(" + r + "," + g + "," + b + ")");
+  theta += spread_theta;
+  phi += spread_phi;
+}
+}
+
+</script>
 
 </head>
